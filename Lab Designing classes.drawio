@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-02-12T13:39:32.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EP5gUkKKdvvAoCun732d" version="23.1.2" type="device">
+  <diagram name="Page-1" id="o06Lg_27KZHa6o5Eopua">
+    <mxGraphModel dx="2056" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-1" value="Rectangle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-2" value="- width: int&lt;br&gt;- length: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WbYEkhPJVB4LYB7ahN43-1" vertex="1">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WbYEkhPJVB4LYB7ahN43-1" vertex="1">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-4" value="+ int area()&lt;br&gt;+ boolean checkIfSquare()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WbYEkhPJVB4LYB7ahN43-1" vertex="1">
+          <mxGeometry y="88" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WbYEkhPJVB4LYB7ahN43-1" source="WbYEkhPJVB4LYB7ahN43-2" target="WbYEkhPJVB4LYB7ahN43-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WbYEkhPJVB4LYB7ahN43-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WbYEkhPJVB4LYB7ahN43-1" source="WbYEkhPJVB4LYB7ahN43-2" target="WbYEkhPJVB4LYB7ahN43-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-2" value="Computer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-3" value="- storage: int&lt;br&gt;- modelOfPrinter: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3ROJ88R7BYvmHmzv3rB3-2" vertex="1">
+          <mxGeometry y="26" width="270" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3ROJ88R7BYvmHmzv3rB3-2" vertex="1">
+          <mxGeometry y="70" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-5" value="+ String getStorage()&lt;br&gt;+ void addStorage(int extraStorage)&lt;br&gt;+ void setModelOfPrinter(String modelOfPrinter)&lt;br&gt;+ void getModelOfPrinter()&lt;br&gt;+ String printMessage(String inputMessage)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3ROJ88R7BYvmHmzv3rB3-2" vertex="1">
+          <mxGeometry y="78" width="270" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-6" value="ShoppingTrolley" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="120" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-7" value="- ArrayList &amp;lt;String&amp;gt; itemsList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3ROJ88R7BYvmHmzv3rB3-6" vertex="1">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3ROJ88R7BYvmHmzv3rB3-6" vertex="1">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3ROJ88R7BYvmHmzv3rB3-9" value="+ String addItem()&lt;br&gt;+ int getItemCount()&lt;br&gt;+ boolean itemInTrolley(String inputItem)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3ROJ88R7BYvmHmzv3rB3-6" vertex="1">
+          <mxGeometry y="60" width="230" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
